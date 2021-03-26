@@ -1,0 +1,97 @@
+h1, h2{
+    text-align: center;
+    color: white;
+    background: #084B8A;
+    padding: 5px;
+    margin:0px;
+}
+h1 {
+font-size: 4rem;
+}
+body{
+    margin:0px;
+    background: RGB(20, 20, 20);
+}
+button{
+    color: #084B8A;
+    border: none;
+    margin-left: 20%;
+    margin-right: auto;
+    font-size: 1rem;
+    font-weight: 900;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.btn-group, .btn-group-vertical {
+        margin-right: 20%;
+        margin-left: auto;
+}
+.btn-light{
+    
+    color: #084B8A;
+    border: none;
+    font-size: 1rem;
+    font-weight: 900;
+    padding-top: 0;
+    padding-bottom: 0;  
+}
+.btn-light:hover{
+    color : #084B8A;
+}
+label{
+    color: #084B8A;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    font-size: 1rem;
+    font-weight: 900;
+    padding-top: 0;
+    padding-bottom: 0;  
+}
+.navbar{
+    padding: 0;
+}
+a:not([href]) {
+    color:#084B8A;
+}
+div.row {
+    margin-left: 10%;
+    margin-right:10%;
+}
+div.cubeCouleur {
+    border-radius: 25px;
+    margin-left: 5%;
+    margin-right:5%;
+    margin-top: 20px;
+    margin-bottom: -5px;
+    height: 150px;
+}
+.cubeCouleur{
+    opacity: 1;
+    transition: opacity 0.5s; 
+}
+.vanish {
+    opacity: 0;
+}
+.noDisplay{
+    visibility:hidden;
+}
+.btn-light:not(:disabled):not(.disabled).active, .btn-light:not(:disabled):not(.disabled):active, .show>.btn-light.dropdown-toggle {
+    color: white;
+    margin-top: 0;
+    padding: 0 px;
+    background-color: #084B8A;
+}
+button:focus {
+    outline: none;
+}
+#difficulty-border1{
+    box-shadow:none;
+}
+#difficulty-border2{
+    box-shadow:none;
+}
+label button{
+    cursor: pointer;
+}
